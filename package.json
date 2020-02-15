@@ -1,0 +1,39 @@
+{
+  "name": "svelte-vega-eval",
+  "version": "0.0.1",
+  "license": "GPL-3.0-or-later",
+  "author": "Mark Hughes (theWebalyst)",
+  "description": "Evaluating Vega with Svelte",
+  "keywords": [
+    "svelte",
+    "vega",
+    "visualisation"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/theWebalyst/svelte-vega-eval/issues/",
+    "email": "svelte-vega-eval@happybeing.com"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "raw-loader": "^4.0.0",
+    "serve": "^11.0.0",
+    "style-loader": "^0.23.1",
+    "svelte": "^3.0.0",
+    "svelte-loader": "2.13.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "vega": "^5.9.1",
+    "vega-embed": "^6.2.2",
+    "vega-lite": "^4.3.1"
+  }
+}
