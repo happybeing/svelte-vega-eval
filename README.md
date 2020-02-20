@@ -1,5 +1,7 @@
 # Evaluating Vega visualisation grammar in the Svelte framework
 
+See also: [svelte-vega-lite-eval](https://github.com/theWebalyst/svelte-vega-lite-eval) for a corresponding evaluation of Vega-Lite.
+
 This is part of the research for [Visualisation Lab](https://github.com/theWebalyst/visualisation-lab).
 
 I'm looking for common standards to represent data for visualisation. [Vega](https://vega.github.io/vega/) and [Vega Lite](https://vega.github.io/vega-lite/) are
